@@ -77,6 +77,6 @@ int		main(int ac, char **av)
 		ft_make_tree(".", options);
 	ft_del_tree(errs);
 	ft_del_tree(list);
-	system("leaks a.out");
+//	system("leaks a.out");
 	return (0);
 }
